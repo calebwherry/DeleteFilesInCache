@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteFilesInCache", "DeleteFilesInCache\DeleteFilesInCache.csproj", "{E087C5CA-DEB9-49FF-B51A-7F6BFCCB533D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteFilesInCache_OutOfProcessWorker", "DeleteFilesInCache_OutOfProcessWorker\DeleteFilesInCache_OutOfProcessWorker.csproj", "{5D6A8436-3429-48D9-AF4D-E795203B962C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E087C5CA-DEB9-49FF-B51A-7F6BFCCB533D}.Debug|x64.ActiveCfg = Debug|x64
+		{E087C5CA-DEB9-49FF-B51A-7F6BFCCB533D}.Debug|x64.Build.0 = Debug|x64
+		{E087C5CA-DEB9-49FF-B51A-7F6BFCCB533D}.Release|x64.ActiveCfg = Release|x64
+		{E087C5CA-DEB9-49FF-B51A-7F6BFCCB533D}.Release|x64.Build.0 = Release|x64
+		{5D6A8436-3429-48D9-AF4D-E795203B962C}.Debug|x64.ActiveCfg = Debug|x64
+		{5D6A8436-3429-48D9-AF4D-E795203B962C}.Debug|x64.Build.0 = Debug|x64
+		{5D6A8436-3429-48D9-AF4D-E795203B962C}.Release|x64.ActiveCfg = Release|x64
+		{5D6A8436-3429-48D9-AF4D-E795203B962C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
