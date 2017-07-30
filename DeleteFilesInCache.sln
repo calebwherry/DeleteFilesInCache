@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteFilesInCache", "DeleteFilesInCache\DeleteFilesInCache.csproj", "{E087C5CA-DEB9-49FF-B51A-7F6BFCCB533D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5D6A8436-3429-48D9-AF4D-E795203B962C} = {5D6A8436-3429-48D9-AF4D-E795203B962C}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteFilesInCache_OutOfProcessWorker", "DeleteFilesInCache_OutOfProcessWorker\DeleteFilesInCache_OutOfProcessWorker.csproj", "{5D6A8436-3429-48D9-AF4D-E795203B962C}"
 EndProject

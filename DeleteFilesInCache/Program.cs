@@ -11,6 +11,8 @@ namespace DeleteFilesInCache
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Starting.");
+
             // Configurable items:
             var threadCount = Environment.ProcessorCount;
             var cacheDirectory = "TEMP_CACHE";
@@ -90,7 +92,9 @@ namespace DeleteFilesInCache
             }
 
             // Wait for all tasks to end:
+            Console.WriteLine("Waiting on all tasks to complete...");
             Task.WaitAll(allTasks.ToArray());
+            Console.WriteLine("All tasks complete.");
         }
     }
 }
