@@ -1,0 +1,1 @@
+Test project that does out of processing copying of files toa cache and then multi-threadedly tries to delete those files.
